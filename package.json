@@ -1,0 +1,13 @@
+{
+  "name": "team-task-manager",
+  "version": "1.0.0",
+  "description": "Full-stack Team Task Manager for Assessment",
+  "scripts": {
+    "install-server": "cd server && npm install",
+    "install-client": "cd client && npm install",
+    "build-client": "cd client && npm run build",
+    "install": "npm run install-server && npm run install-client",
+    "build": "npm run build-client",
+    "start": "cd server && node index.js"
+  }
+}
